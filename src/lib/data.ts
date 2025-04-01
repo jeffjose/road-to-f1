@@ -117,6 +117,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "red-bull"
+      },
+      {
+        year: 2014,
+        leagueId: "f3",
+        position: 3,
+        points: 411,
+        wins: 10,
+        podiums: 16,
+        teamId: "van-amersfoort",
+        highlights: ["Rookie season", "Most wins in season"]
       }
     ],
     socialMedia: {
@@ -143,6 +153,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "red-bull"
+      },
+      {
+        year: 2010,
+        leagueId: "f2",
+        position: 2,
+        points: 145,
+        wins: 5,
+        podiums: 7,
+        teamId: "barwa-addax",
+        highlights: ["Rookie season", "Most wins"]
       }
     ],
     socialMedia: {
@@ -169,6 +189,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "mercedes"
+      },
+      {
+        year: 2006,
+        leagueId: "f2",
+        position: 1,
+        points: 114,
+        wins: 5,
+        podiums: 9,
+        teamId: "art-grand-prix",
+        highlights: ["Champion", "Rookie champion"]
       }
     ],
     socialMedia: {
@@ -195,6 +225,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "mercedes"
+      },
+      {
+        year: 2018,
+        leagueId: "f2",
+        position: 1,
+        points: 287,
+        wins: 7,
+        podiums: 11,
+        teamId: "art-grand-prix",
+        highlights: ["Champion", "Rookie champion"]
+      },
+      {
+        year: 2017,
+        leagueId: "f3",
+        position: 3,
+        points: 220,
+        wins: 2,
+        podiums: 6,
+        teamId: "hitechgp",
+        highlights: ["Rookie season"]
       }
     ],
     socialMedia: {
@@ -221,6 +271,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "ferrari"
+      },
+      {
+        year: 2014,
+        leagueId: "f2",
+        position: 1,
+        points: 227,
+        wins: 7,
+        podiums: 10,
+        teamId: "dams",
+        highlights: ["Champion", "Rookie champion"]
       }
     ],
     socialMedia: {
@@ -247,6 +307,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "ferrari"
+      },
+      {
+        year: 2014,
+        leagueId: "f2",
+        position: 1,
+        points: 227,
+        wins: 7,
+        podiums: 10,
+        teamId: "dams",
+        highlights: ["Champion", "Rookie champion"]
       }
     ],
     socialMedia: {
@@ -273,6 +343,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "mclaren"
+      },
+      {
+        year: 2018,
+        leagueId: "f2",
+        position: 2,
+        points: 219,
+        wins: 1,
+        podiums: 9,
+        teamId: "carlin",
+        highlights: ["Rookie season"]
+      },
+      {
+        year: 2017,
+        leagueId: "f3",
+        position: 1,
+        points: 441,
+        wins: 9,
+        podiums: 13,
+        teamId: "carlin",
+        highlights: ["Champion", "Most wins"]
       }
     ],
     socialMedia: {
@@ -299,6 +389,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "mclaren"
+      },
+      {
+        year: 2021,
+        leagueId: "f2",
+        position: 1,
+        points: 252.5,
+        wins: 6,
+        podiums: 11,
+        teamId: "prema",
+        highlights: ["Champion", "Rookie champion"]
+      },
+      {
+        year: 2020,
+        leagueId: "f3",
+        position: 1,
+        points: 164,
+        wins: 2,
+        podiums: 6,
+        teamId: "prema",
+        highlights: ["Champion", "Rookie champion"]
       }
     ],
     socialMedia: {
@@ -325,6 +435,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "aston-martin"
+      },
+      {
+        year: 2000,
+        leagueId: "f2",
+        position: 1,
+        points: 164,
+        wins: 6,
+        podiums: 9,
+        teamId: "astromega",
+        highlights: ["Champion"]
       }
     ],
     socialMedia: {
@@ -351,6 +471,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "aston-martin"
+      },
+      {
+        year: 2000,
+        leagueId: "f2",
+        position: 1,
+        points: 164,
+        wins: 6,
+        podiums: 9,
+        teamId: "astromega",
+        highlights: ["Champion"]
       }
     ],
     socialMedia: {
@@ -377,6 +507,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "alpine"
+      },
+      {
+        year: 2016,
+        leagueId: "f2",
+        position: 1,
+        points: 202,
+        wins: 1,
+        podiums: 7,
+        teamId: "prema",
+        highlights: ["Champion", "Rookie champion"]
+      },
+      {
+        year: 2015,
+        leagueId: "f3",
+        position: 1,
+        points: 381,
+        wins: 14,
+        podiums: 20,
+        teamId: "prema",
+        highlights: ["Champion", "Most wins", "Most podiums"]
       }
     ],
     socialMedia: {
@@ -403,6 +553,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "alpine"
+      },
+      {
+        year: 2016,
+        leagueId: "f2",
+        position: 1,
+        points: 219,
+        wins: 4,
+        podiums: 8,
+        teamId: "prema",
+        highlights: ["Champion", "Rookie champion"]
+      },
+      {
+        year: 2015,
+        leagueId: "f3",
+        position: 2,
+        points: 253,
+        wins: 5,
+        podiums: 13,
+        teamId: "prema",
+        highlights: ["Rookie season"]
       }
     ],
     socialMedia: {
@@ -429,6 +599,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "williams"
+      },
+      {
+        year: 2018,
+        leagueId: "f2",
+        position: 3,
+        points: 212,
+        wins: 4,
+        podiums: 9,
+        teamId: "dams",
+        highlights: ["Rookie season"]
+      },
+      {
+        year: 2017,
+        leagueId: "f3",
+        position: 3,
+        points: 177,
+        wins: 1,
+        podiums: 8,
+        teamId: "hitechgp",
+        highlights: ["Rookie season"]
       }
     ],
     socialMedia: {
@@ -455,6 +645,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "williams"
+      },
+      {
+        year: 2022,
+        leagueId: "f2",
+        position: 4,
+        points: 148,
+        wins: 2,
+        podiums: 5,
+        teamId: "carlin",
+        highlights: ["Rookie season"]
+      },
+      {
+        year: 2021,
+        leagueId: "f3",
+        position: 7,
+        points: 102,
+        wins: 1,
+        podiums: 3,
+        teamId: "carlin",
+        highlights: ["First season in F3"]
       }
     ],
     socialMedia: {
@@ -481,6 +691,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "visa-rb"
+      },
+      {
+        year: 2020,
+        leagueId: "f2",
+        position: 3,
+        points: 200,
+        wins: 3,
+        podiums: 7,
+        teamId: "carlin",
+        highlights: ["Rookie season"]
+      },
+      {
+        year: 2019,
+        leagueId: "f3",
+        position: 9,
+        points: 67,
+        wins: 0,
+        podiums: 1,
+        teamId: "jenzer",
+        highlights: ["First season in Europe"]
       }
     ],
     socialMedia: {
@@ -507,6 +737,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "visa-rb"
+      },
+      {
+        year: 2010,
+        leagueId: "f2",
+        position: 2,
+        points: 144,
+        wins: 4,
+        podiums: 8,
+        teamId: "tech-1",
+        highlights: ["Rookie season"]
       }
     ],
     socialMedia: {
@@ -533,6 +773,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "stake"
+      },
+      {
+        year: 2012,
+        leagueId: "f2",
+        position: 1,
+        points: 231,
+        wins: 4,
+        podiums: 9,
+        teamId: "lotus",
+        highlights: ["Champion"]
       }
     ],
     socialMedia: {
@@ -559,6 +809,26 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "stake"
+      },
+      {
+        year: 2021,
+        leagueId: "f2",
+        position: 3,
+        points: 183,
+        wins: 4,
+        podiums: 7,
+        teamId: "uni-virtuosi",
+        highlights: ["Rookie season"]
+      },
+      {
+        year: 2020,
+        leagueId: "f3",
+        position: 8,
+        points: 76,
+        wins: 0,
+        podiums: 2,
+        teamId: "prema",
+        highlights: ["First season in Europe"]
       }
     ],
     socialMedia: {
@@ -585,6 +855,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "haas"
+      },
+      {
+        year: 2013,
+        leagueId: "f2",
+        position: 1,
+        points: 238,
+        wins: 5,
+        podiums: 9,
+        teamId: "dams",
+        highlights: ["Champion"]
       }
     ],
     socialMedia: {
@@ -611,6 +891,16 @@ export const drivers: Driver[] = [
         wins: 0,
         podiums: 0,
         teamId: "haas"
+      },
+      {
+        year: 2009,
+        leagueId: "f2",
+        position: 1,
+        points: 100,
+        wins: 5,
+        podiums: 8,
+        teamId: "art-grand-prix",
+        highlights: ["Champion", "Rookie champion"]
       }
     ],
     socialMedia: {
