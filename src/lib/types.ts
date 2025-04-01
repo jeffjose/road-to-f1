@@ -34,7 +34,7 @@ export interface Driver {
   name: string;
   photoUrl: string;
   nationality: string;
-  dateOfBirth: string;  // ISO date string
+  dateOfBirth: string;  // Changed from optional to required
   yearPromotedToF1?: number;  // The year they entered F1, if applicable
   currentTeamId?: string;     // Reference to current Team
   careerHistory: SeasonResult[];

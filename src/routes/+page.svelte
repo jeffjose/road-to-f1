@@ -10,6 +10,19 @@
 		return teams.find((t) => t.id === teamId);
 	}
 
+	function calculateAge(dateOfBirth: string) {
+		const today = new Date();
+		const birthDate = new Date(dateOfBirth);
+		let age = today.getFullYear() - birthDate.getFullYear();
+		const monthDiff = today.getMonth() - birthDate.getMonth();
+
+		if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+			age--;
+		}
+
+		return age;
+	}
+
 	// Sort drivers by active status and then alphabetically
 	$: sortedDrivers = [...drivers]
 		.sort((a, b) => {
@@ -42,7 +55,11 @@
 						/>
 						<div class="flex-1">
 							<h2 class="text-lg font-bold">{driver.name}</h2>
-							<p class="text-sm text-gray-100">{driver.nationality}</p>
+							<p class="text-sm text-gray-100">
+								{driver.nationality} • {driver.dateOfBirth
+									? calculateAge(driver.dateOfBirth)
+									: 'N/A'} years old
+							</p>
 							{#if currentTeam}
 								<div class="mt-1 flex items-center space-x-2">
 									<img src={currentTeam.logoUrl} alt={currentTeam.name} class="h-4 w-auto" />
