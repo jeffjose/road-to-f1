@@ -12,15 +12,22 @@ export const leagues: League[] = [
     id: "f2",
     name: "Formula 2",
     photoUrl: "https://upload.wikimedia.org/wikipedia/commons/9/96/FIA_Formula_2_Championship_logo.svg",
-    description: "Primary feeder series to Formula 1",
+    description: "The final step before F1",
     tier: 2
   },
   {
     id: "f3",
     name: "Formula 3",
-    photoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/FIA_F3_Championship_logo.png/440px-FIA_F3_Championship_logo.png",
+    photoUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5b/FIA_F3_Championship_logo.png",
     description: "Entry-level formula racing",
     tier: 3
+  },
+  {
+    id: "karting",
+    name: "Karting",
+    photoUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/CIK-FIA_logo.svg/440px-CIK-FIA_logo.svg.png",
+    description: "The foundation of racing careers",
+    tier: 4
   }
 ];
 
@@ -127,6 +134,17 @@ export const drivers: Driver[] = [
         podiums: 16,
         teamId: "van-amersfoort",
         highlights: ["Rookie season", "Most wins in season"]
+      },
+      {
+        year: 2013,
+        leagueId: "karting",
+        position: 1,
+        points: 0,
+        wins: 0,
+        podiums: 0,
+        kartingCategory: "KZ",
+        kartingChampionship: "CIK-FIA World Championship",
+        highlights: ["World Champion", "Youngest ever KZ World Champion"]
       }
     ],
     socialMedia: {
@@ -273,14 +291,35 @@ export const drivers: Driver[] = [
         teamId: "ferrari"
       },
       {
-        year: 2014,
+        year: 2017,
         leagueId: "f2",
         position: 1,
-        points: 227,
+        points: 282,
         wins: 7,
         podiums: 10,
-        teamId: "dams",
-        highlights: ["Champion", "Rookie champion"]
+        teamId: "prema",
+        highlights: ["Champion", "Rookie champion", "Most pole positions"]
+      },
+      {
+        year: 2016,
+        leagueId: "f3",
+        position: 1,
+        points: 383,
+        wins: 3,
+        podiums: 8,
+        teamId: "art-grand-prix",
+        highlights: ["Champion"]
+      },
+      {
+        year: 2014,
+        leagueId: "karting",
+        position: 1,
+        points: 0,
+        wins: 0,
+        podiums: 0,
+        kartingCategory: "KZ",
+        kartingChampionship: "CIK-FIA World Championship",
+        highlights: ["World Champion", "Youngest ever KZ World Champion"]
       }
     ],
     socialMedia: {
@@ -409,6 +448,17 @@ export const drivers: Driver[] = [
         podiums: 6,
         teamId: "prema",
         highlights: ["Champion", "Rookie champion"]
+      },
+      {
+        year: 2019,
+        leagueId: "karting",
+        position: 1,
+        points: 0,
+        wins: 0,
+        podiums: 0,
+        kartingCategory: "OK",
+        kartingChampionship: "CIK-FIA European Championship",
+        highlights: ["European Champion"]
       }
     ],
     socialMedia: {

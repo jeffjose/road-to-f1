@@ -4,8 +4,8 @@ export interface League {
   id: string;
   name: string;          // e.g., "Formula 1", "Formula 2", "Formula 3"
   photoUrl: string;      // League logo or representative image
-  description?: string;  // Optional description of the racing series
-  tier: number;         // 1 for F1, 2 for F2, etc. - helps with progression visualization
+  description: string;   // Optional description of the racing series
+  tier: number;         // 1 for F1, 2 for F2, 3 for F3, 4 for karting
 }
 
 export interface Team {
@@ -23,8 +23,10 @@ export interface SeasonResult {
   points: number;       // Total points scored
   wins: number;        // Number of race wins
   podiums: number;     // Number of podium finishes
-  teamId: string;      // Reference to the Team
+  teamId?: string;      // Reference to the Team (optional for karting where team structure is different)
   highlights?: string[]; // Notable achievements during the season
+  kartingCategory?: string; // For karting seasons (e.g., "KZ", "OK", "KZ2", etc.)
+  kartingChampionship?: string; // Name of the karting championship
 }
 
 export interface Driver {
